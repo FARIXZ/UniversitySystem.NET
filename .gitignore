@@ -1,0 +1,26 @@
+# .gitignore for .NET Core / Visual Studio Projects
+
+# Visual Studio user files and caches
+.vs/
+*.user
+*.suo
+*.userosscat
+*.v12
+*.v11
+*.v10
+
+# Build results and assemblies
+bin/
+obj/
+Debug/
+Release/
+
+# NuGet Packages
+*.nupkg
+packages/
+**/packages/*
+!**/packages/build/
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
